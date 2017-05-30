@@ -58,7 +58,7 @@ app.get('/registration', (req, res) => {
     });
 });
 
-app.post('/registration/add', (req, res) => {
+app.post('/registration', (req, res) => {
     let user       = new User();
     user.firstName = req.body.firstName;
     user.lastName  = req.body.lastName;
