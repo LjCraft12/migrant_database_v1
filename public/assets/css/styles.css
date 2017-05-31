@@ -1,5 +1,10 @@
 /*Navbar style*/
 
+.navbar-brand{
+    float: left;
+    margin-top:-14px;
+}
+
 .navbar a {
     color:#000000;
 }
