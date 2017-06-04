@@ -102,3 +102,10 @@ app.get('/registered', (req, res) => {
         }
     });
 });
+
+app.get('/privacy', (req, res) => {
+    res.render('privacy', {
+        title: 'Migrant Med | Privacy',
+        header: 'Migrant Med\'s Privacy Policy'
+    })
+});
