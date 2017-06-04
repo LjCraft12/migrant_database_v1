@@ -12,6 +12,9 @@ body {
 .sub-heading {
     text-transform: capitalize;
 }
+i {
+    margin-top: .48em;
+}
 p {
     font-size: 14px;
     line-height: 1.75;
