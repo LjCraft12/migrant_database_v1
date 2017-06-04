@@ -2,6 +2,9 @@
 
 .navbar-nav{
     margin-right: 50px;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .navbar-header img{
