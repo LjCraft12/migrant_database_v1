@@ -1,12 +1,13 @@
-/*Navbar style*/
+/*!*Navbar style*!*/
 
-.navbar-brand{
-    float: left;
-    margin-top:-14px;
-}
+/*.navbar-logo img{*/
+    /*width: 250px;*/
 
-.navbar a {
-    color:#000000;
+/*}*/
+
+.navbar-default
+.navbar-nav li a {
+    margin-left: -200px;
 }
 
 /*Form style*/
