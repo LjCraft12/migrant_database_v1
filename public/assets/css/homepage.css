@@ -9,6 +9,9 @@ body {
 .text-primary {
     color: #07968a;
 }
+.sub-heading {
+    text-transform: capitalize;
+}
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -158,6 +161,7 @@ header {
     -o-background-size: cover;
     text-align: center;
     color: white;
+    margin-top: -1.8em;
 
 }
 header .intro-text {
@@ -183,7 +187,7 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-        color: #9A9DA1;
+        color: #white;
     }
     header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -482,7 +486,7 @@ section#contact {
     background-image: url('../../assets/images/about/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
-
+    margin-bottom: -1em;
 }
 section#contact .section-heading {
     color: white;
@@ -682,8 +686,3 @@ body {
         margin-bottom: 50px;
     }
 }
-
-
-
-
-

@@ -19,7 +19,6 @@ body {
     font-size: 12px;
     line-height: 30px;
     color: #777;
-    background: #FFFFFF;
 }
 
 .square {
@@ -130,4 +129,7 @@ fieldset {
     font-size:10px;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
+}
+.main-footer {
+    background: #eee;
 }
