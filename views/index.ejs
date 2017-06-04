@@ -8,66 +8,32 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/homepage.css">
+
+    <!--<link rel="stylesheet" href="../assets/fonts/font-awesome.css">-->
+    <script src="https://use.fontawesome.com/db6fbba628.js"></script>
     <title><%= title %></title>
 </head>
 <body>
 
-<% include ./partials/header %>
+<% include ./partials/header.ejs %>
 
 <!-- Code below this line DO NOT DELETE THIS COMMENT-->
 
-<h1 class="page-header text-center"> This is the home page </h1>
-
-
 <body id="page-top" class="index">
 
-<!-- Navigation -->
-
-<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logos/MMPlusLogo.png" alt="" width="250" height="150"></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#team">Team</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-
-                <li>
-                    <a class="page-scroll" href="#contact">Sign Up</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
-
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="intro-text">
-            <div class="intro-heading">Nurse Staffing Revolutionized</div>
-            <div class="intro-lead-in">Get assignments faster with less hassle and higher rates</div>
-                <a href="" class="page-scroll btn btn-xl">SIGN UP NOW</a>
-        </div>
-    </div>
-</header>
+<!--&lt;!&ndash; Header &ndash;&gt;-->
+<!--<header>-->
+    <!--<div class="container">-->
+        <!--<div class="intro-text">-->
+            <!--<div class="intro-heading">Nurse Staffing Revolutionized</div>-->
+            <!--<div class="intro-lead-in">Get assignments faster with less hassle and higher rates</div>-->
+                <!--<a href="" class="page-scroll btn btn-xl">SIGN UP NOW</a>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</header>-->
 
 <!-- Services Section -->
 <section id="services">
@@ -159,7 +125,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/bulb1.png" alt="">
+                            <img class="img-circle img-responsive" src="assets/images/about/bulb1.png" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -173,7 +139,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/idea1.png" alt="">
+                            <img class="img-circle img-responsive" src="assets/images/about/idea1.png" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -187,7 +153,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/pc1.png" alt="">
+                            <img class="img-circle img-responsive" src="assets/images/about/pc1.png" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -201,7 +167,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/med1.png" alt="">
+                            <img class="img-circle img-responsive" src="assets/images/about/med1.png" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -266,7 +232,7 @@
 
 <!-- All code needs to stop at this line unless adding javascript DO NOT DELETE THIS COMMENT -->
 
-<% include ./partials/footer %>
+<% include ./partials/footer.ejs %>
 
 </body>
 </html>
