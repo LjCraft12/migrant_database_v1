@@ -78,7 +78,8 @@ app.post('/registration', (req, res) => {
 app.get('/thanks', (req, res) => {
     res.render('thanks', {
         title: 'Migrant Med | Thank you',
-        header: 'Thank you for pre-registering to Migrant Med.'
+        header: 'Thank you for pre-registering with Migrant Med.',
+        body: 'Please expect emails in the coming months with details regarding our official launch date!'
     });
 });
 
